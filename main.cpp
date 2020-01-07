@@ -11,7 +11,7 @@ int main(){
     char operator;
     
     printf("Please enter a expression");
-    printf("Please enter a expression(ex> 1+2): ");
+    printf("수식을 입력하세요(예> 1 + 2): ");
     cin >> a >> operator >> b;
     
     switch(operator){
