@@ -7,24 +7,24 @@ int div(int, int);
 int multi(int, int);
 
 int main(){
-    int a,b,c;
+    int a, b, result;
     char operator;
     
     printf("Please enter a expression");
-    cin>>a>>operator>>b;
+    cin >> a >> operator >> b;
     
     switch(operator){
             case'+':
-            c=add(a,b);
+            result = add(a,b);
             break;
             case'-':
-            c=sub(a,b);
+            result = sub(a,b);
             break;
             case'*':
-            c = multi(a,b);
+            result = multi(a,b);
             break;
             case'/':
-            c = div(a,b);
+            result = div(a,b);
             break;
     }
     
