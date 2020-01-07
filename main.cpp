@@ -29,5 +29,6 @@ int main(){
             break;
     }
     cout << a << " " << operator << b <<" = " << result;
+    printf("result is %03d.\n", result);
     return 0;
 }
