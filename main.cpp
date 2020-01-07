@@ -27,6 +27,6 @@ int main(){
             result = div(a,b);
             break;
     }
-    
+    sout << a << " " << operator << b <<" = " << result;
     return 0;
 }
