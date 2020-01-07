@@ -11,7 +11,7 @@ int main(){
     char operator;
     
     printf("Please enter a expression");
-    printf("수식을 입력하세요: ");
+    printf("수식을 입력하세요(예> 1 + 2): ");
     cin >> a >> operator >> b;
     
     switch(operator){
@@ -28,6 +28,6 @@ int main(){
             result = div(a,b);
             break;
     }
-    sout << a << " " << operator << b <<" = " << result;
+    cout << a << " " << operator << b <<" = " << result;
     return 0;
 }
