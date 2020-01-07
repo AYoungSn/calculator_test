@@ -29,5 +29,10 @@ int main(){
             break;
     }
     cout << a << " " << operator << b <<" = " << result;
+    printf("result is %03d.\n", result);
     return 0;
+}
+int div(int a, int b)
+{
+    return a/b;
 }
