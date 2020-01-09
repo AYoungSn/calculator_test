@@ -30,6 +30,7 @@ int main(){
     }
     cout << a << " " << operator << b <<" = " << result;
     printf("result is %03d.\n", result);
+    printf("test");
     return 0;
 }
 
